@@ -7,4 +7,7 @@
 
 " Replace the ^M characters with actual cariage returns. FileMaker apparently
 " uses DOS returns within the calculation dialog by default.
-:%s/\r/\r/g
+:silent! %s/\r/\r/g
+
+" No need to see spelling errors on error prone code
+set nospell
