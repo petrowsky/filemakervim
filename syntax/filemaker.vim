@@ -19,9 +19,9 @@ highlight link fmVariables Identifier
 " ---------------------------------------------------
 " Convention Variables
 
-syntax match conVariables "\v_[A-Za-z_]+"
+syntax match conVariables "\v[_~]{1}[A-Za-z_]+"
 
-highlight link conVariables Identifier
+highlight link conVariables Special
 
 " ---------------------------------------------------
 " Keywords
