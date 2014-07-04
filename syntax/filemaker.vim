@@ -26,7 +26,7 @@ highlight link conVariables Identifier
 " ---------------------------------------------------
 " Keywords
 
-"syntax keyword fmKeyword 
+"syntax keyword fmKeyword
 
 " ---------------------------------------------------
 " Operators
@@ -88,7 +88,7 @@ syntax keyword fmBuiltIns Log Mod Random Round SetPrecision Sign Sqrt Truncate
 
 " Date functions
 syntax keyword fmBuiltIns Date Day DayName DayNameJ DayOfWeek DayOfYear Month
-syntax keyword fmBuiltIns MonthName MonthNameJ WeekOfYear 
+syntax keyword fmBuiltIns MonthName MonthNameJ WeekOfYear
 
 " Time functions
 syntax keyword fmBuiltIns Hour Minute Seconds Time
