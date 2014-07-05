@@ -1,0 +1,14 @@
+Let ( [
+~nospace = "something";
+  ~this.variable = "foo";
+  _var = "bar";
+  ~field = "blah::field";
+_another = Get ( ActiveFieldName );
+_db = DatabaseNames;
+$var_atstart = "wow";
+$$GlobalVar = "how";
+  $indented.var = "nice";
+  $$CAPVAR.MORE = "stuf"
+];
+  If ( $var_atstart ; True ; False )
+)
