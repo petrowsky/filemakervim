@@ -12,9 +12,9 @@ endif
 " ---------------------------------------------------
 " Local and Global Variables
 
-syntax match fmVariables "\v\$\$?[A-Za-z_.]+"
+syntax match fmVariables "\v\$[^ ]+"
 
-highlight link fmVariables Identifier
+highlight link fmVariables Define
 
 " ---------------------------------------------------
 " Convention Variables
@@ -39,8 +39,11 @@ syntax match fmOperator "\v\="
 syntax match fmOperator "\v\&"
 syntax match fmOperator "\v¶"
 syntax match fmOperator "\v≤"
+syntax match fmOperator "\v\<\="
 syntax match fmOperator "\v≥"
+syntax match fmOperator "\v\>\="
 syntax match fmOperator "\v≠"
+syntax match fmOperator "\v\<\>"
 syntax match fmOperator "\v^"
 syntax keyword fmOperator and or not xor
 
@@ -184,9 +187,9 @@ highlight link fmGetConstants Structure
 " ---------------------------------------------------
 " Conventional Custom Functions
 
-syntax match fmCustomFunctions "[a-z]\+\.[A-Za-z]\+"
+"syntax match fmCustomFunctions "[a-z]\+\.[A-Za-z]\+"
 
-highlight link fmCustomFunctions Function
+"highlight link fmCustomFunctions Function
 
 " ---------------------------------------------------
 " Comments
