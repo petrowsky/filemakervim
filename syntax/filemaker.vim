@@ -24,11 +24,6 @@ syntax match conVariables "\v\n?[_~]{1}[^ ]+"
 highlight link conVariables Special
 
 " ---------------------------------------------------
-" Keywords
-
-"syntax keyword fmKeyword
-
-" ---------------------------------------------------
 " Operators
 
 syntax match fmOperator "\v\*"
