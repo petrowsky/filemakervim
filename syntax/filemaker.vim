@@ -44,7 +44,7 @@ syntax match fmOperator "\v≥"
 syntax match fmOperator "\v\>\="
 syntax match fmOperator "\v≠"
 syntax match fmOperator "\v\<\>"
-syntax match fmOperator "\v^"
+syntax match fmOperator "\v\^"
 syntax keyword fmOperator and or not xor
 
 highlight link fmOperator Operator

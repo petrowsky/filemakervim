@@ -11,3 +11,6 @@
 
 " No need to see spelling errors on error prone code
 set nospell
+
+" Retab to desired tab settings
+:silent! %retab!
